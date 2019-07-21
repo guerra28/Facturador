@@ -161,6 +161,7 @@ public class Ventana extends JFrame implements ActionListener, MouseListener, Fo
         GridBagConstraints c = new GridBagConstraints();
 
         btnInicio.setText("Inicio");
+        btnInicio.setToolTipText("Inicio");
         btnInicio.setColorFocusGained(new Color(hex("162542")));
         btnInicio.setColorPresed(new Color(hex("152E4A")));
         btnInicio.setSize(new Dimension(150, 50));
