@@ -70,6 +70,7 @@ public class Ventana extends JFrame implements ActionListener, MouseListener, Fo
         contenedor.setBackground(new Color(hex("BDBAA9")));
         //contenedor.setSize(300, 200);
 
+        
         iniciarPanelMenu();
 
         contenedorUsuario = new JPanel();
